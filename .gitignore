@@ -1,0 +1,65 @@
+# =============================
+# React Native
+# =============================
+node_modules/
+ios/Pods/
+android/.gradle/
+android/app/build/
+*.keystore
+*.jks
+*.p8
+*.pem
+*.mobileprovision
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj/
+*.idea/
+*.vscode/
+*.DS_Store
+*.log
+
+# React Native build output
+build/
+*.apk
+*.aab
+
+# Metro & Bundler
+.expo/
+.expo-shared/
+dist/
+.bundle/
+.env
+.env.*.local
+
+# Watchman
+.watchmanconfig
+
+# CocoaPods
+ios/Podfile.lock
+ios/Pods/
+
+# =============================
+# Node.js (Backend)
+# =============================
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Other common ignores
+coverage/
+logs/
+*.tgz
+.cache/
+.tmp/
+temp/
+.zip
+.tar
+.tar.gz
+
+# OS-specific
+Thumbs.db
+.DS_Store
+
+identify.py
